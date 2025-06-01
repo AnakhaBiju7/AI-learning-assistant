@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-st.set_page_config(page_title="AI Study Buddy")
+st.set_page_config(page_title="AI Study Buddy", page_icon="🎓")
 
 # Session state to persist info
 if "history" not in st.session_state:
